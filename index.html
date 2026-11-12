@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#260d18">
+<title>Ujjwal ♥ Shreya | Wedding Invitation</title>
+<style>
+:root{--wine:#260d18;--wine2:#451526;--gold:#e6c477;--cream:#fff5df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--wine);color:var(--cream);font-family:Georgia,'Times New Roman',serif}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:30px 18px;position:relative;overflow:hidden;background:radial-gradient(ellipse at center,#6b293c 0%,#351321 48%,#180911 100%)}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#d9b76c;opacity:.45;font-size:clamp(120px,24vw,280px);animation:float 8s ease-in-out infinite}.hero:before{top:2%;left:3%}.hero:after{bottom:0;right:4%;animation-delay:-4s}
+.frame{position:relative;z-index:1;max-width:760px;width:100%;padding:clamp(28px,7vw,65px) 20px;border:1px solid #d9b76c;outline:1px solid #d9b76c;outline-offset:8px;background:#260d1880;box-shadow:0 0 70px #0008}
+.eyebrow{letter-spacing:.35em;text-transform:uppercase;color:var(--gold);font:12px Arial,sans-serif}.names{font-size:clamp(48px,11vw,94px);line-height:1.05;margin:24px 0;color:#f8e7b7;font-weight:normal}.amp{display:block;font-size:.55em;color:var(--gold);font-style:italic;margin:8px}.invite{font-size:clamp(17px,3vw,22px);line-height:1.7}.date{color:var(--gold);font-size:clamp(20px,4vw,29px);letter-spacing:.12em;margin:20px 0}
+.btn{display:inline-block;border:1px solid var(--gold);padding:13px 22px;color:var(--gold);text-decoration:none;letter-spacing:.1em;text-transform:uppercase;font:12px Arial,sans-serif;margin:10px 5px;transition:.25s}.btn:hover{background:var(--gold);color:var(--wine)}
+section{padding:75px 20px;text-align:center}.section-title{color:var(--gold);font-size:clamp(30px,6vw,46px);font-weight:normal;margin:0 0 12px}.sub{color:#e9d7b5;letter-spacing:.15em;text-transform:uppercase;font:11px Arial,sans-serif}.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;max-width:900px;margin:35px auto}.event{padding:32px 22px;border:1px solid #b99555;background:linear-gradient(145deg,#4a1b2c,#260d18);box-shadow:0 15px 35px #0004}.event h3{font-size:27px;color:var(--gold);font-weight:normal;margin:5px}.event p{line-height:1.7}.count{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:30px auto}.unit{min-width:75px;padding:15px 10px;border:1px solid #b99555;background:#ffffff08}.unit b{display:block;color:var(--gold);font-size:30px;font-weight:normal}.unit span{font:10px Arial,sans-serif;letter-spacing:.15em}
+footer{text-align:center;padding:35px 15px;color:#d8bd83;border-top:1px solid #79533e}.ornament{color:var(--gold);font-size:24px;margin:15px}
+@keyframes float{50%{transform:translateY(-18px) rotate(12deg);opacity:.7}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style></head>
+<body>
+<header class="hero" id="home"><div class="frame">
+<div class="eyebrow">Together with our families</div>
+<div class="ornament">✧ ❦ ✧</div>
+<p class="invite">Joyfully invite you to celebrate the wedding of</p>
+<h1 class="names">Ujjwal <span class="amp">&</span> Shreya</h1>
+<div class="date">29 · NOVEMBER · 2026</div>
+<p class="invite">Two hearts, one beautiful beginning.<br>Your presence will make our celebration complete.</p>
+<a class="btn" href="#celebration">View Celebration</a>
+<a class="btn" href="https://wa.me/?text=You%20are%20invited%20to%20the%20wedding%20of%20Ujjwal%20%26%20Shreya%20on%2029%20November%202026!">Share Invitation</a>
+</div></header>
+<section id="celebration"><div class="sub">Save the dates</div><h2 class="section-title">The Celebration</h2><div class="ornament">✧ ❦ ✧</div>
+<div class="count" aria-label="Countdown to wedding"><div class="unit"><b id="days">--</b><span>DAYS</span></div><div class="unit"><b id="hours">--</b><span>HOURS</span></div><div class="unit"><b id="mins">--</b><span>MINUTES</span></div><div class="unit"><b id="secs">--</b><span>SECONDS</span></div></div>
+<div class="events">
+<article class="event"><div class="sub">The Wedding</div><h3>Ujjwal ♥ Shreya</h3><p><strong>Sunday, 29 November 2026</strong><br>Sangeet Lawn, Nahar Road<br>Lucknow, Uttar Pradesh</p></article>
+<article class="event"><div class="sub">The Reception</div><h3>Celebrate With Us</h3><p><strong>Tuesday, 1 December 2026</strong><br>MB Lawn, IIM Road<br>Lucknow, Uttar Pradesh</p></article>
+</div>
+<p class="invite">We would be delighted to have you with us<br>as we begin our forever.</p>
+<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sangeet+Lawn+Nahar+Road+Lucknow">Wedding Venue Map</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=MB+Lawn+IIM+Road+Lucknow">Reception Venue Map</a>
+</section>
+<footer><div class="ornament">❦</div><div class="eyebrow">With love</div><h2 class="section-title">Ujjwal & Shreya</h2><p>29 November 2026 · Lucknow</p></footer>
+<script>
+const target=new Date('2026-11-29T00:00:00+05:30').getTime();
+function tick(){let d=Math.max(0,target-Date.now());const vals={days:Math.floor(d/86400000),hours:Math.floor(d%86400000/3600000),mins:Math.floor(d%3600000/60000),secs:Math.floor(d%60000/1000)};for(const [k,v] of Object.entries(vals))document.getElementById(k).textContent=String(v).padStart(2,'0')}
+tick();setInterval(tick,1000);
+</script></body></html>
